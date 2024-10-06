@@ -61,8 +61,8 @@ services:
       - gotenberg
       - tika
     # Not needed as we're using Traefik
-    ports:
-      - "8010:8000"
+    # ports:
+    #   - "8010:8000"
     volumes:
       - data:/usr/src/paperless/data
       - media:/usr/src/paperless/media
